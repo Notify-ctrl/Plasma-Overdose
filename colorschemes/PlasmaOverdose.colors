@@ -104,17 +104,16 @@ ForegroundVisited=127,140,141
 
 [General]
 ColorScheme=Breeze
-Name=PlasmaOverdose
-Name[zh_CN]=Plasma重度依赖
+Name=Plasma重度依赖
 shadeSortColumn=true
 
 [KDE]
 contrast=2
 
 [WM]
-activeBackground=246,247,248
-activeBlend=252,252,252
-activeForeground=96,102,104
-inactiveBackground=44,44,44
+activeBackground=239,207,239
+activeBlend=113,42,255
+activeForeground=77,34,203
+inactiveBackground=226,226,225
 inactiveBlend=75,71,67
 inactiveForeground=79,34,212
