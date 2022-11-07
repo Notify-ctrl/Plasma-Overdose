@@ -57,7 +57,7 @@ Rectangle {
         running: false
 
         PauseAnimation {
-            duration: 40
+            duration: 100
         }
 
         ScriptAction {
