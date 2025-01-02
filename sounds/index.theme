@@ -2,6 +2,7 @@
 Name=Plasma Overdose
 Name[zh_CN]=Plasma 重度依赖
 Name[zh_TW]=Plasma 重度依賴
+Directories=stereo
 Comment=Windose 20 sound effects from Needy Girl Overdose/Needy Streamer Overload
 Comment[zh_TW]=Plasma 重度依賴音效源自於「主播女孩重度依賴」這款遊戲的界面音效
 Example=theme-demo
