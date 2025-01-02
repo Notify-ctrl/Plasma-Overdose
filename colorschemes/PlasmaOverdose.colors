@@ -104,7 +104,9 @@ ForegroundVisited=127,140,141
 
 [General]
 ColorScheme=Breeze
-Name=Plasma重度依赖
+Name=Plasma Overdose
+Name[zh_CN]=Plasma 重度依赖
+Name[zh_TW]=Plasma 重度依賴
 shadeSortColumn=true
 
 [KDE]
