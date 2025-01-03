@@ -15,5 +15,10 @@
 		"Name[zh_CN]": "Plasma 重度依赖",
 		"Name[zh_TW]": "Plasma 重度依賴",
 		"Website": "https://github.com/Notify-ctrl/Plasma-Overdose"
-	}
+	},
+  "X-KPackage-Dependencies": [
+    "kns://colorschemes.knsrc/api.kde-look.org/1700393",
+    "kns://aurorae.knsrc/api.kde-look.org/1700394",
+    "kns://xcursor.knsrc/api.kde-look.org/1700441"
+  ]
 }
