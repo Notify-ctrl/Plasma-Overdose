@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="5.5383184"
-     inkscape:cx="12.187815"
-     inkscape:cy="66.085041"
+     inkscape:cx="12.368375"
+     inkscape:cy="44.417815"
      inkscape:window-width="1707"
      inkscape:window-height="1005"
      inkscape:window-x="0"
@@ -58,7 +58,7 @@
      id="layer1">
     <g
        id="active-center"
-       transform="rotate(180,20.5,24.499999)">
+       transform="rotate(180,20.5,18)">
       <rect
          style="fill:#4d23cd;fill-opacity:1;stroke:#aaa6c3;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect24"
@@ -223,7 +223,7 @@
     </g>
     <g
        id="inactive-center"
-       transform="rotate(180,20.5,18)">
+       transform="rotate(180,20.5,24.5)">
       <rect
          style="fill:#aaa6c3;fill-opacity:1;stroke:none;stroke-width:0.0836685;stroke-opacity:1"
          id="rect55-6"
