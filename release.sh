@@ -5,12 +5,12 @@ PROJ=Plasma-Overdose
 BUILD=build
 
 rel() {
-  DIR=${BUILD}/$1
-  mkdir $DIR
-  cp -r $(pwd)/$1 ${DIR}/${PROJ}
-  cd $DIR
-  tar zcf ${PROJ}.tar.gz ${PROJ}
-  cd - >/dev/null
+	DIR=${BUILD}/$1
+	mkdir $DIR
+	cp -r $(pwd)/$1 ${DIR}/${PROJ}
+	cd $DIR
+	tar zcf ${PROJ}.tar.gz ${PROJ}
+	cd - >/dev/null
 }
 
 mkdir build

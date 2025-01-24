@@ -29,5 +29,5 @@ cp colorscheme/* ~/.local/share/color-schemes/
 ```
 To install the Global Theme run
 ```sh
-cp -r plasma ~/.local/share/
+kpackagetool6 -t Plasma/LookAndFeel -i Plasma-Overdose
 ```

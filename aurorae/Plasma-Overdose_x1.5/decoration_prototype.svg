@@ -7,7 +7,7 @@
    viewBox="0 0 64 64"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="decoration.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,16 +23,18 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.8029653"
-     inkscape:cx="148.92133"
-     inkscape:cy="119.248"
-     inkscape:window-width="1920"
-     inkscape:window-height="983"
+     inkscape:zoom="1.3691951"
+     inkscape:cx="-90.56416"
+     inkscape:cy="284.10853"
+     inkscape:window-width="1707"
+     inkscape:window-height="1005"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     width="27mm" />
+     width="27mm"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2" />
   <g
@@ -41,7 +43,7 @@
      id="layer1">
     <g
        id="decoration-topleft"
-       transform="scale(2)">
+       transform="matrix(2,0,0,2,-89.79854,-2.8427891)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.0234539"
          id="rect31-6"
@@ -94,7 +96,7 @@
     </g>
     <g
        id="decoration-topright"
-       transform="matrix(-2,0,0,2,22,0)">
+       transform="matrix(-2,0,0,2,-6.799198,-2.8542412)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.0234539"
          id="rect31-6-2"
@@ -146,15 +148,15 @@
          y="21" />
     </g>
     <rect
-       style="fill:#efcfef;fill-opacity:1;stroke-width:0.0664173"
+       style="fill:#efcfef;fill-opacity:1;stroke-width:0.221943"
        id="decoration-center"
-       width="6"
+       width="66.999344"
        height="14"
-       x="8"
-       y="44" />
+       x="-81.798538"
+       y="41.157211" />
     <g
        id="decoration-left"
-       transform="scale(2)">
+       transform="matrix(2,0,0,2,-89.79854,-2.8427891)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.0135411"
          id="rect31-2"
@@ -179,7 +181,7 @@
     </g>
     <g
        id="decoration-right"
-       transform="matrix(2,0,0,2,14,0)">
+       transform="matrix(2,0,0,2,-14.799198,-2.8542412)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.0135411"
          id="rect31-2-7"
@@ -204,7 +206,7 @@
     </g>
     <g
        id="decoration-top"
-       transform="scale(2)">
+       transform="matrix(22.333113,0,0,2,-171.13099,-2.8542412)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-7"
@@ -257,110 +259,33 @@
     </g>
     <g
        id="decoration-bottom"
-       transform="scale(2)">
+       transform="matrix(2,0,0,2,-28.799198,7.1457588)"
+       inkscape:label="">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.00886474"
-         id="rect31-7-9"
+         id="rect31-7-9-7"
          width="3"
-         height="2"
+         height="7"
          x="4"
-         y="30" />
+         y="25" />
       <rect
          style="fill:#4d23cd;fill-opacity:1;stroke-width:0.081518"
-         id="rect1546-6-9-5-6-2-9-1"
+         id="rect1546-6-9-5-6-2-9-1-9"
          width="3"
          height="1"
          x="4"
-         y="29" />
+         y="24" />
       <rect
          style="fill:#4d23cd;fill-opacity:1;stroke-width:0.081518"
-         id="rect1546-6-9-5-6-2-9-2"
+         id="rect1546-6-9-5-6-2-9-2-2"
          width="3"
          height="1"
          x="4"
          y="32" />
-    </g>
-    <g
-       id="decoration-bottomleft"
-       transform="scale(2)">
-      <rect
-         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.00886474"
-         id="rect31-5"
-         width="2"
-         height="3"
-         x="1"
-         y="29" />
-      <rect
-         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.010857"
-         id="rect31-5-3"
-         width="3"
-         height="3"
-         x="1"
-         y="30" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0941287"
-         id="rect1546-6-9-3"
-         width="1"
-         height="4"
-         x="0"
-         y="29" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0941285"
-         id="rect1546-6-9-3-6"
-         width="4"
-         height="1"
-         x="-1.7763568e-15"
-         y="32" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0470642"
-         id="rect1546-6-9-3-6-7"
-         width="1"
-         height="1"
-         x="3"
-         y="29" />
-    </g>
-    <g
-       id="decoration-bottomright"
-       transform="matrix(-2,0,0,2,22,0)">
-      <rect
-         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.00886474"
-         id="rect31-5-0"
-         width="2"
-         height="3"
-         x="1"
-         y="29" />
-      <rect
-         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.010857"
-         id="rect31-5-3-6"
-         width="3"
-         height="3"
-         x="1"
-         y="30" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0941287"
-         id="rect1546-6-9-3-2"
-         width="1"
-         height="4"
-         x="0"
-         y="29" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0941285"
-         id="rect1546-6-9-3-6-6"
-         width="4"
-         height="1"
-         x="-1.7763568e-15"
-         y="32" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0470642"
-         id="rect1546-6-9-3-6-7-1"
-         width="1"
-         height="1"
-         x="3"
-         y="29" />
     </g>
     <g
        id="decoration-maximized-topleft"
-       transform="matrix(2,0,0,2,58.990542,0.004603)">
+       transform="matrix(2,0,0,2,9.8426504,0)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.0234539"
          id="rect31-6-6"
@@ -413,7 +338,7 @@
     </g>
     <g
        id="decoration-maximized-topright"
-       transform="matrix(-2,0,0,2,80.990542,0.004603)">
+       transform="matrix(-2,0,0,2,31.84265,0)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.0234539"
          id="rect31-6-2-0"
@@ -469,11 +394,11 @@
        id="decoration-maximized-center"
        width="6"
        height="14"
-       x="66.990547"
-       y="44.004604" />
+       x="17.842655"
+       y="44" />
     <g
        id="decoration-maximized-left"
-       transform="matrix(2,0,0,2,58.990542,0.004603)">
+       transform="matrix(2,0,0,2,9.8426504,0)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.0135411"
          id="rect31-2-8"
@@ -498,7 +423,7 @@
     </g>
     <g
        id="decoration-maximized-right"
-       transform="matrix(2,0,0,2,72.990542,0.004603)">
+       transform="matrix(2,0,0,2,23.84265,0)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.0135411"
          id="rect31-2-7-0"
@@ -523,7 +448,7 @@
     </g>
     <g
        id="decoration-maximized-top"
-       transform="matrix(2,0,0,2,58.990542,0.004603)">
+       transform="matrix(2,0,0,2,9.8426504,0)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-7-5"
@@ -576,7 +501,7 @@
     </g>
     <g
        id="decoration-maximized-bottom"
-       transform="matrix(2,0,0,2,58.990542,0.004603)">
+       transform="matrix(2,0,0,2,9.8426504,0)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-7-9-1"
@@ -601,7 +526,7 @@
     </g>
     <g
        id="decoration-maximized-bottomleft"
-       transform="matrix(2,0,0,2,58.990542,0.004603)">
+       transform="matrix(2,0,0,2,9.8426504,0)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-5-1"
@@ -640,7 +565,7 @@
     </g>
     <g
        id="decoration-maximized-bottomright"
-       transform="matrix(-2,0,0,2,80.990542,0.004603)">
+       transform="matrix(-2,0,0,2,31.84265,0)">
       <rect
          style="fill:#90f3e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-5-0-0"
@@ -679,7 +604,7 @@
     </g>
     <g
        id="decoration-inactive-topleft"
-       transform="matrix(2,0,0,2,30,0)">
+       transform="matrix(2,0,0,2,-89.79854,73.177379)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0234539"
          id="rect31-6-3"
@@ -732,7 +657,7 @@
     </g>
     <g
        id="decoration-inactive-topright"
-       transform="matrix(-2,0,0,2,52,0)">
+       transform="matrix(-2,0,0,2,-6.799197,73.177379)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0234539"
          id="rect31-6-2-4"
@@ -784,15 +709,15 @@
          y="21" />
     </g>
     <rect
-       style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0664173"
+       style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.22231"
        id="decoration-inactive-center"
-       width="6"
+       width="67.221359"
        height="14"
-       x="38"
-       y="44" />
+       x="-81.798538"
+       y="117.17738" />
     <g
        id="decoration-inactive-left"
-       transform="matrix(2,0,0,2,30,0)">
+       transform="matrix(2,0,0,2,-89.79854,73.177379)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0135411"
          id="rect31-2-0"
@@ -817,7 +742,7 @@
     </g>
     <g
        id="decoration-inactive-right"
-       transform="matrix(2,0,0,2,44,0)">
+       transform="matrix(2,0,0,2,-14.799196,73.177379)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0135411"
          id="rect31-2-7-1"
@@ -842,7 +767,7 @@
     </g>
     <g
        id="decoration-inactive-top"
-       transform="matrix(2,0,0,2,30,0)">
+       transform="matrix(22.333114,0,0,2,-171.131,73.177379)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-7-7"
@@ -894,111 +819,8 @@
          y="21" />
     </g>
     <g
-       id="decoration-inactive-bottom"
-       transform="matrix(2,0,0,2,30,0)">
-      <rect
-         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
-         id="rect31-7-9-2"
-         width="3"
-         height="2"
-         x="4"
-         y="30" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.081518"
-         id="rect1546-6-9-5-6-2-9-1-5"
-         width="3"
-         height="1"
-         x="4"
-         y="29" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.081518"
-         id="rect1546-6-9-5-6-2-9-2-4"
-         width="3"
-         height="1"
-         x="4"
-         y="32" />
-    </g>
-    <g
-       id="decoration-inactive-bottomleft"
-       transform="matrix(2,0,0,2,30,0)">
-      <rect
-         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
-         id="rect31-5-4"
-         width="2"
-         height="3"
-         x="1"
-         y="29" />
-      <rect
-         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.010857"
-         id="rect31-5-3-4"
-         width="3"
-         height="3"
-         x="1"
-         y="30" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0941287"
-         id="rect1546-6-9-3-3"
-         width="1"
-         height="4"
-         x="0"
-         y="29" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0941285"
-         id="rect1546-6-9-3-6-0"
-         width="4"
-         height="1"
-         x="-1.7763568e-15"
-         y="32" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0470642"
-         id="rect1546-6-9-3-6-7-7"
-         width="1"
-         height="1"
-         x="3"
-         y="29" />
-    </g>
-    <g
-       id="decoration-inactive-bottomright"
-       transform="matrix(-2,0,0,2,52,0)">
-      <rect
-         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
-         id="rect31-5-0-6"
-         width="2"
-         height="3"
-         x="1"
-         y="29" />
-      <rect
-         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.010857"
-         id="rect31-5-3-6-8"
-         width="3"
-         height="3"
-         x="1"
-         y="30" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0941287"
-         id="rect1546-6-9-3-2-8"
-         width="1"
-         height="4"
-         x="0"
-         y="29" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0941285"
-         id="rect1546-6-9-3-6-6-4"
-         width="4"
-         height="1"
-         x="-1.7763568e-15"
-         y="32" />
-      <rect
-         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.0470642"
-         id="rect1546-6-9-3-6-7-1-3"
-         width="1"
-         height="1"
-         x="3"
-         y="29" />
-    </g>
-    <g
        id="decoration-maximized-inactive-topleft"
-       transform="matrix(2,0,0,2,86.369752,0.06709045)">
+       transform="matrix(2,0,0,2,37.22186,0.06248745)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0234539"
          id="rect31-6-3-3"
@@ -1051,7 +873,7 @@
     </g>
     <g
        id="decoration-maximized-inactive-topright"
-       transform="matrix(-2,0,0,2,108.36975,0.06709045)">
+       transform="matrix(-2,0,0,2,59.221858,0.06248745)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0234539"
          id="rect31-6-2-4-7"
@@ -1107,11 +929,11 @@
        id="decoration-inactive-center-4"
        width="6"
        height="14"
-       x="94.369751"
-       y="44.067089" />
+       x="45.221859"
+       y="44.062485" />
     <g
        id="decoration-maximized-inactive-left"
-       transform="matrix(2,0,0,2,86.369752,0.06709045)">
+       transform="matrix(2,0,0,2,37.22186,0.06248745)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0135411"
          id="rect31-2-0-2"
@@ -1136,7 +958,7 @@
     </g>
     <g
        id="decoration-maximized-inactive-right"
-       transform="matrix(2,0,0,2,100.36975,0.06709045)">
+       transform="matrix(2,0,0,2,51.221858,0.06248745)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.0135411"
          id="rect31-2-7-1-4"
@@ -1161,7 +983,7 @@
     </g>
     <g
        id="decoration-maximized-inactive-top"
-       transform="matrix(2,0,0,2,86.369752,0.06709045)">
+       transform="matrix(2,0,0,2,37.22186,0.06248745)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-7-7-7"
@@ -1214,7 +1036,7 @@
     </g>
     <g
        id="decoration-maximized-inactive-bottom"
-       transform="matrix(2,0,0,2,86.369752,0.06709045)">
+       transform="matrix(2,0,0,2,37.22186,0.06248745)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-7-9-2-4"
@@ -1239,7 +1061,7 @@
     </g>
     <g
        id="decoration-maximized-inactive-bottomleft"
-       transform="matrix(2,0,0,2,86.369752,0.06709045)">
+       transform="matrix(2,0,0,2,37.22186,0.06248745)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-5-4-6"
@@ -1278,7 +1100,7 @@
     </g>
     <g
        id="decoration-maximized-inactive-bottomright"
-       transform="matrix(-2,0,0,2,108.36975,0.06709045)">
+       transform="matrix(-2,0,0,2,59.221858,0.06248745)">
       <rect
          style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
          id="rect31-5-0-6-4"
@@ -1314,6 +1136,326 @@
          height="1"
          x="3"
          y="29" />
+    </g>
+    <g
+       id="decoration-bottomright"
+       transform="translate(-95.403507,-13.950517)"
+       inkscape:label="">
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36"
+         width="2"
+         height="2"
+         x="80.604309"
+         y="69.096275" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.457449"
+         id="rect16-0"
+         width="2"
+         height="18"
+         x="86.604309"
+         y="69.096275" />
+      <rect
+         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect17-9"
+         width="4"
+         height="16"
+         x="82.604309"
+         y="69.096275" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.081518"
+         id="rect1546-6-9-5-6-2-9-2-6-2"
+         width="3"
+         height="1"
+         x="8.9950333"
+         y="37.466953"
+         transform="matrix(2,0,0,2,62.614244,10.162369)" />
+      <rect
+         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect17-9-1"
+         width="2"
+         height="14"
+         x="80.604309"
+         y="71.096275" />
+    </g>
+    <g
+       id="decoration-bottomleft"
+       inkscape:label=""
+       transform="translate(-91.412779,-13.005158)">
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-3"
+         width="63"
+         height="2"
+         x="7.6142387"
+         y="68.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-3-5"
+         width="67"
+         height="2"
+         x="3.6142385"
+         y="84.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-3-5-2"
+         width="32"
+         height="2"
+         x="9.6142387"
+         y="75.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-2"
+         width="7"
+         height="7"
+         x="45.614239"
+         y="75.162369" />
+      <rect
+         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-7-1"
+         width="3"
+         height="3"
+         x="47.614239"
+         y="77.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.457449"
+         id="rect16-6"
+         width="2"
+         height="9"
+         x="7.6142387"
+         y="75.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.457449"
+         id="rect16-6-9"
+         width="2"
+         height="9"
+         x="41.614239"
+         y="75.162369" />
+      <rect
+         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect17"
+         width="4"
+         height="16"
+         x="3.6142385"
+         y="68.162369" />
+      <path
+         style="fill:#eaa0e7;fill-opacity:1;stroke-width:0.13866"
+         d="m 36.398371,304.84502 v -13.17274 h 60.386631 60.386628 v 13.17274 13.17275 H 96.785002 36.398371 Z"
+         id="path17"
+         transform="scale(0.26458333)" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect18"
+         width="7"
+         height="7"
+         x="53.614239"
+         y="75.162369" />
+      <rect
+         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect19"
+         width="3"
+         height="3"
+         x="55.614239"
+         y="77.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect20"
+         width="7"
+         height="7"
+         x="61.614239"
+         y="75.162369" />
+      <rect
+         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect21"
+         width="3"
+         height="3"
+         x="63.614239"
+         y="77.162369" />
+      <path
+         style="fill:#90f3e1;fill-opacity:1;stroke-width:0.392191"
+         d="M 164.91632,300.8105 V 283.7502 H 96.871179 28.826039 v -9.21649 -9.21649 H 147.85601 266.88598 v 26.2768 26.27679 h -50.98483 -50.98483 z m 34.12062,-3.52971 V 283.7502 h -13.3345 -13.33449 v 13.53059 13.53059 h 13.33449 13.3345 z m 30.19871,0 V 283.7502 h -13.3345 -13.33449 v 13.53059 13.53059 h 13.33449 13.3345 z m 30.1987,0 V 283.7502 h -13.33449 -13.3345 v 13.53059 13.53059 h 13.3345 13.33449 z"
+         id="path22"
+         transform="scale(0.26458333)" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.457449"
+         id="rect16"
+         width="2"
+         height="18"
+         x="1.6142385"
+         y="68.162369" />
+    </g>
+    <g
+       id="decoration-inactive-bottom"
+       transform="matrix(2,0,0,2,-28.79854,82.787394)"
+       inkscape:label="">
+      <rect
+         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.00886474"
+         id="rect31-7-9-7-6"
+         width="3"
+         height="7"
+         x="4"
+         y="25" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.081518"
+         id="rect1546-6-9-5-6-2-9-1-9-3"
+         width="3"
+         height="1"
+         x="4"
+         y="24" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.081518"
+         id="rect1546-6-9-5-6-2-9-2-2-2"
+         width="3"
+         height="1"
+         x="4"
+         y="32" />
+    </g>
+    <g
+       id="decoration-inactive-bottomright"
+       transform="translate(-95.403505,61.691119)"
+       inkscape:label="">
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-6"
+         width="2"
+         height="2"
+         x="80.604309"
+         y="69.096275" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.457449"
+         id="rect16-0-1"
+         width="2"
+         height="18"
+         x="86.604309"
+         y="69.096275" />
+      <rect
+         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect17-9-5"
+         width="4"
+         height="16"
+         x="82.604309"
+         y="69.096275" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.081518"
+         id="rect1546-6-9-5-6-2-9-2-6-2-5"
+         width="3"
+         height="1"
+         x="8.9950333"
+         y="37.466953"
+         transform="matrix(2,0,0,2,62.614244,10.162369)" />
+      <rect
+         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect17-9-1-4"
+         width="2"
+         height="14"
+         x="80.604309"
+         y="71.096275" />
+    </g>
+    <g
+       id="decoration-inactive-bottomleft"
+       inkscape:label=""
+       transform="translate(-91.412121,62.636477)">
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-3-6"
+         width="63"
+         height="2"
+         x="7.6142387"
+         y="68.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-3-5-5"
+         width="67"
+         height="2"
+         x="3.6142385"
+         y="84.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-3-5-2-6"
+         width="32"
+         height="2"
+         x="9.6142387"
+         y="75.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-2-9"
+         width="7"
+         height="7"
+         x="45.614239"
+         y="75.162369" />
+      <rect
+         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect1546-6-9-3-36-7-1-3"
+         width="3"
+         height="3"
+         x="47.614239"
+         y="77.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.457449"
+         id="rect16-6-7"
+         width="2"
+         height="9"
+         x="7.6142387"
+         y="75.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.457449"
+         id="rect16-6-9-4"
+         width="2"
+         height="9"
+         x="41.614239"
+         y="75.162369" />
+      <rect
+         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect17-5"
+         width="4"
+         height="16"
+         x="3.6142385"
+         y="68.162369" />
+      <path
+         style="fill:#eaa0e7;fill-opacity:1;stroke-width:0.13866"
+         d="m 36.398371,304.84502 v -13.17274 h 60.386631 60.386628 v 13.17274 13.17275 H 96.785002 36.398371 Z"
+         id="path17-2"
+         transform="scale(0.26458333)" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect18-5"
+         width="7"
+         height="7"
+         x="53.614239"
+         y="75.162369" />
+      <rect
+         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect19-4"
+         width="3"
+         height="3"
+         x="55.614239"
+         y="77.162369" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.152483"
+         id="rect20-7"
+         width="7"
+         height="7"
+         x="61.614239"
+         y="75.162369" />
+      <rect
+         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.152483"
+         id="rect21-4"
+         width="3"
+         height="3"
+         x="63.614239"
+         y="77.162369" />
+      <path
+         style="fill:#e2e2e1;fill-opacity:1;stroke-width:0.392191"
+         d="M 164.91632,300.8105 V 283.7502 H 96.871179 28.826039 v -9.21649 -9.21649 H 147.85601 266.88598 v 26.2768 26.27679 h -50.98483 -50.98483 z m 34.12062,-3.52971 V 283.7502 h -13.3345 -13.33449 v 13.53059 13.53059 h 13.33449 13.3345 z m 30.19871,0 V 283.7502 h -13.3345 -13.33449 v 13.53059 13.53059 h 13.33449 13.3345 z m 30.1987,0 V 283.7502 h -13.33449 -13.3345 v 13.53059 13.53059 h 13.3345 13.33449 z"
+         id="path22-4"
+         transform="scale(0.26458333)" />
+      <rect
+         style="fill:#4d23cd;fill-opacity:1;stroke-width:0.457449"
+         id="rect16-3"
+         width="2"
+         height="18"
+         x="1.6142385"
+         y="68.162369" />
     </g>
   </g>
 </svg>
