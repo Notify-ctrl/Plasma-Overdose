@@ -9,7 +9,7 @@ InactiveTextShadowColor=255,255,255,255
 TextShadowOffsetX=0
 TextShadowOffsetY=1
 LeftButtons=XIA
-Shadow=false
+Shadow=true
 Animation=1
 
 [Layout]
@@ -31,7 +31,7 @@ ButtonMarginLeft=2
 ButtonMarginRight=5
 ExplicitButtonSpacer=0
 PaddingTop=17
-PaddingBottom=2
+PaddingBottom=13
 PaddingRight=2
 PaddingLeft=2
 TitleEdgeTopMaximized=4

@@ -16,3 +16,6 @@ ColorScheme=PlasmaOverdose
 
 [kdeglobals][KDE]
 widgetStyle=breeze
+
+[KSplash]
+Theme=notify.ctrl.plasma.overdose
