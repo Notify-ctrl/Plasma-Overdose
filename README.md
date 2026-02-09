@@ -38,11 +38,15 @@ To install the cursor theme run
 ```sh
 cp -r cursors ~/.local/share/icons/CursorsOverdose/
 ```
-To install the Colorscheme
+To install the color scheme run
 ```sh
 cp colorschemes/* ~/.local/share/color-schemes/
 ```
-To install the Global Theme run
+To install sounds run
+```sh
+sudo cp -r sounds/ /usr/share/sounds/Overdose
+```
+To install the global theme run
 ```sh
 cd plasma/look-and-feel/
 kpackagetool6 -t Plasma/LookAndFeel -i Plasma-Overdose
