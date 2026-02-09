@@ -44,7 +44,7 @@ cp colorschemes/* ~/.local/share/color-schemes/
 ```
 To install sounds run
 ```sh
-sudo cp -r sounds/ /usr/share/sounds/Overdose
+cp -r sounds/ ~/.local/share/sounds/Plasma-Overdose
 ```
 To install the global theme run
 ```sh
