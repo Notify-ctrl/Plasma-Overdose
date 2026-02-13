@@ -57,3 +57,5 @@ After completing all the steps, you need to manually set the theme and it's comp
 > System Settings > Colors & Themes
 
 ### Feel free to contribute to this theme!  
+
+<br>
