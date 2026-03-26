@@ -5,6 +5,8 @@
 Plasma-Overdose is a KDE theme inspired by the popular game *Needy Girl Overdose/Needy Streamer
 Overload*.
 
+Join our discord server! <https://discord.gg/xvWEt4NJcx>
+
 
 ## What we offer
 * Aurorae Theme (Window decorations)
