@@ -1,8 +1,22 @@
-import QtQuick 2.5
+import QtQuick
 
 Rectangle {
     id: root
     color: "black"
+
+    property int stage
+
+    onStageChanged: {
+        if (stage === 1) {
+            loadingAnim.running = true;
+        } else if (stage === 4) {
+            loadingAnim.running = false;
+            content.opacity = 0;
+            theDots.visible = false;
+            welcome.opacity = 0;
+            loadWelcome.running = true;
+        }
+    }
 
     Image {
         id: content
@@ -20,7 +34,7 @@ Rectangle {
         anchors.leftMargin: 690 / 1920 * content.width
         Repeater {
             id: dots
-            model: 996
+            model: 50
             property int current: 0
             Image {
                 source: "images/dots"
@@ -35,20 +49,6 @@ Rectangle {
         fillMode: Image.PreserveAspectCrop
         anchors.fill: parent
         opacity: 0
-    }
-
-    property int stage
-
-    onStageChanged: {
-        if (stage === 1) {
-            loadingAnim.running = true;
-        } else if (stage === 4) {
-            loadingAnim.running = false;
-            content.opacity = 0;
-            theDots.visible = false;
-            welcome.opacity = 0;
-            loadWelcome.running = true;
-        }
     }
 
     SequentialAnimation {
