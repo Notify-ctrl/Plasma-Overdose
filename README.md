@@ -9,11 +9,19 @@ Join our discord server! <https://discord.gg/xvWEt4NJcx>
 
 
 ## What we offer
-* Aurorae Theme (Window decorations)
-* Color Scheme
-* Cursor Theme
-* Global Theme
-* Splash Screen
+
+Plasma-specific:
+
+* `look-and-feel/`: Global Theme
+  * [X] Splash Screen
+* `desktoptheme/`: Plasma Style
+  * [X] Color Scheme
+* `aurorae/`: Window Decorations
+
+Should available across DEs:
+
+* `sounds/`: Sound Theme
+* `cursors/`: Cursor Theme
 
 ## Todos
 

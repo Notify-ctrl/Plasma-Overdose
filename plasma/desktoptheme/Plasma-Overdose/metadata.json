@@ -1,0 +1,18 @@
+
+{
+  "KPlugin": {
+    "Authors": [
+      {
+				"Name": "Notify-ctrl",
+        "Email": "notify-ctrl@qq.com"
+      }
+    ],
+    "Category": "",
+    "Id": "Plasma-Overdose",
+    "License": "GPLv3",
+    "Name": "Plasma Overdose",
+    "Name[zh_CN]": "Plasma 重度依赖",
+    "Version": "0.1.0"
+  },
+  "X-Plasma-API": "5.0"
+}

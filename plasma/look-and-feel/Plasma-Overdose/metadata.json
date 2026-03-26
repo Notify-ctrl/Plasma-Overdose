@@ -3,13 +3,14 @@
 	"KPlugin": {
 		"Authors": [
 			{
-				"Name": "Notify-ctrl"
+				"Name": "Notify-ctrl",
+        "Email": "notify-ctrl@qq.com"
 			}
 		],
 		"Category": "",
 		"Description": " Plasma Overdose is a KDE theme inspired by the popular game Needy Girl Overdose/Needy Streamer Overload.",
 		"Description[zh_TW]": "Plasma 重度依賴是受到「主播女孩重度依賴」這款遊戲所啟發",
-		"Id": "notify.ctrl.plasma.overdose",
+		"Id": "Plasma-Overdose",
 		"License": "GPLv3",
 		"Name": "Plasma Overdose",
 		"Name[zh_CN]": "Plasma 重度依赖",
