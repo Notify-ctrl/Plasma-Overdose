@@ -17,6 +17,7 @@ Plasma-specific:
 * `desktoptheme/`: Plasma Style
   * [X] Color Scheme
 * `aurorae/`: Window Decorations
+* `wallpapers/`: Wallpaper
 
 Should available across DEs:
 

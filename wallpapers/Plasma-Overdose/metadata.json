@@ -9,6 +9,7 @@
     "Id": "Plasma-Overdose",
     "License": "CC-BY-SA-4.0",
     "Name": "Plasma Overdose",
-    "Name[zh_CN]": "Plasma 重度依赖"
+    "Name[zh_CN]": "Plasma 重度依赖",
+    "Version": "0.1.0"
   }
 }

@@ -2,6 +2,7 @@
 
 if [ -e build ]; then rm -r build; fi
 PROJ=Plasma-Overdose
+VER=$(git describe --tags --abbrev=0)
 BUILD=build
 
 rel() {
@@ -9,7 +10,7 @@ rel() {
 	mkdir $DIR
 	cp -r $(pwd)/$1 ${DIR}/${PROJ}
 	cd $DIR
-	tar zcf ${PROJ}.tar.gz ${PROJ}
+	tar zcf ${PROJ}-${VER}.tar.gz ${PROJ}
 	cd - >/dev/null
 }
 
@@ -19,19 +20,11 @@ rel cursors
 rel sounds
 
 rel aurorae
-cd build/aurorae/${PROJ}
-tar zcf ${PROJ}.tar.gz *
-mv ${PROJ}.tar.gz ..
-cd - >/dev/null
-
-rel colorschemes
-cd build/colorschemes
-mv ${PROJ}/*.colors .
-tar zcf ${PROJ}.tar.gz *.colors
-cd - >/dev/null
+rel wallpapers
 
 rel plasma
 cd build/plasma/${PROJ}/look-and-feel
-tar zcf ${PROJ}.tar.gz ${PROJ}
-mv ${PROJ}.tar.gz ../..
+tar zcf ${PROJ}-${VER}.tar.gz ${PROJ}
+cd ../desktoptheme
+tar zcf ${PROJ}-${VER}.tar.gz ${PROJ}
 cd - >/dev/null

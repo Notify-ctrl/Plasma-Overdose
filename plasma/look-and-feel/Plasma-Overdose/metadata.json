@@ -15,7 +15,14 @@
 		"Name": "Plasma Overdose",
 		"Name[zh_CN]": "Plasma 重度依赖",
 		"Name[zh_TW]": "Plasma 重度依賴",
+    "Version": "0.1.0",
 		"Website": "https://github.com/Notify-ctrl/Plasma-Overdose"
 	},
-	"Keywords": "Desktop;Workspace;Appearance;Look and Feel;Global Theme"
+	"Keywords": "Desktop;Workspace;Appearance;Look and Feel;Global Theme",
+  "X-KPackage-Dependencies": [
+    "kns://plasma-themes.knsrc/api.kde-look.org/2353608",
+    "kns://aurorae.knsrc/api.kde-look.org/1700394",
+    "kns://wallpaper.knsrc/api.kde-look.org/2353605",
+    "kns://xcursor.knsrc/api.kde-look.org/1700441"
+  ]
 }
