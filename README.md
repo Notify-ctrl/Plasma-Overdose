@@ -41,8 +41,8 @@ cd Plasma-Overdose/
 
 Auto install script:
 
-```sh 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Notify-ctrl/Plasma-Overdose/refs/heads/main/install.sh)"
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Notify-ctrl/Plasma-Overdose/refs/heads/master/install.sh)"
 ```
 
 To install the sounds theme run
