@@ -40,10 +40,10 @@ fi
 
 echo -e "${GREEN}All dependencies are installed. Proceeding with installation...${NC}"
 
-#echo -e "${BLUE}Cloning repository...${NC}"
-# git clone https://github.com/Notify-ctrl/Plasma-Overdose.git
+echo -e "${BLUE}Cloning repository...${NC}"
+git clone https://github.com/Notify-ctrl/Plasma-Overdose.git
 
-# cd Plasma-Overdose
+cd Plasma-Overdose
 SCRIPT_DIR="$(pwd)"
 
 echo -e "${BLUE}Installing Aurorae theme...${NC}"
