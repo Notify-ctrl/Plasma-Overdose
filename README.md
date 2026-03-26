@@ -15,6 +15,13 @@ Join our discord server! <https://discord.gg/xvWEt4NJcx>
 * Global Theme
 * Splash Screen
 
+## Todos
+
+- Renew the code
+- A Kvantum theme, for adjusting Widget Style.
+- (Maybe) An icon theme.
+- (Maybe) Lock screen theme.
+
 ## Font
 
 Using a pixelated font like Public Pixel enhances the experience of using the theme.
