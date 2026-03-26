@@ -20,12 +20,12 @@ Auto install script:
 ```sh 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Notify-ctrl/Plasma-Overdose/refs/heads/main/install.sh)"
 ```
+
 To install the sounds theme run
 ```sh
 mkdir -p ~/.local/share/aurorae/themes
 cp -r "aurorae/"* ~/.local/share/aurorae/themes/
 ```
-
 
 To install the Aurorae theme run
 ```sh
