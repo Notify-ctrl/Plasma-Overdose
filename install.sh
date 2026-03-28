@@ -41,22 +41,26 @@ fi
 echo -e "${GREEN}All dependencies are installed. Proceeding with installation...${NC}"
 
 echo -e "${BLUE}Cloning repository...${NC}"
-git clone https://github.com/Notify-ctrl/Plasma-Overdose.git
+git clone https://codeberg.org/Notify-ctrl/Plasma-Overdose
 
 cd Plasma-Overdose
 SCRIPT_DIR="$(pwd)"
 
 echo -e "${BLUE}Installing Aurorae theme...${NC}"
 mkdir -p ~/.local/share/aurorae/themes
-cp -r "$SCRIPT_DIR/aurorae/"* ~/.local/share/aurorae/themes/
+cp -r "$SCRIPT_DIR/aurorae/Plasma-Overdose"* ~/.local/share/aurorae/themes/
 
 echo -e "${BLUE}Installing cursor theme...${NC}"
-mkdir -p ~/.local/share/icons/CursorsOverdose
-cp -r "$SCRIPT_DIR/cursors/"* ~/.local/share/icons/CursorsOverdose/
+mkdir -p ~/.icons/CursorsOverdose
+cp -r "$SCRIPT_DIR/cursors/"* ~/.icons/CursorsOverdose/
 
-echo -e "${BLUE}Installing colorscheme...${NC}"
+echo -e "${BLUE}Installing Color Scheme...${NC}"
 mkdir -p ~/.local/share/color-schemes
-cp -r "$SCRIPT_DIR/colorschemes/"* ~/.local/share/color-schemes/
+cp "$SCRIPT_DIR/plasma/desktoptheme/Plasma-Overdose/colors" ~/.local/share/color-schemes/Plasma-Overdose.colors
+
+echo -e "${BLUE}Installing Desktop Theme...${NC}"
+mkdir -p ~/.local/share/plasma/desktoptheme
+cp -r "$SCRIPT_DIR/plasma/desktoptheme/Plasma-Overdose" ~/.local/share/plasma/desktoptheme/
 
 echo -e "${BLUE}Installing Global Theme...${NC}"
 kpackagetool6 -t Plasma/LookAndFeel -i "$SCRIPT_DIR/plasma/look-and-feel/Plasma-Overdose"
@@ -64,6 +68,10 @@ kpackagetool6 -t Plasma/LookAndFeel -i "$SCRIPT_DIR/plasma/look-and-feel/Plasma-
 echo -e "${BLUE}Installing sound theme...${NC}"
 mkdir -p ~/.local/share/sounds/PlasmaOverdose
 cp -r "$SCRIPT_DIR/sounds/"* ~/.local/share/sounds/PlasmaOverdose/
+
+echo -e "${BLUE}Installing wallpaper...${NC}"
+mkdir -p ~/.local/share/wallpapers/Plasma-Overdose
+cp -r "$SCRIPT_DIR/wallpapers/Plasma-Overdose/"* ~/.local/share/wallpapers/Plasma-Overdose/
 
 echo -e "${BLUE}Installing zpix font...${NC}"
 mkdir -p ~/.local/share/fonts

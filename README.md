@@ -42,7 +42,7 @@ Using a pixelated font like Public Pixel enhances the experience of using the th
 To download the theme you need to clone the repository:
 
 ```sh
-git clone https://github.com/Notify-ctrl/Plasma-Overdose
+git clone https://codeberg.org/Notify-ctrl/Plasma-Overdose
 cd Plasma-Overdose/
 ```
 
@@ -51,38 +51,53 @@ cd Plasma-Overdose/
 Auto install script:
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Notify-ctrl/Plasma-Overdose/refs/heads/master/install.sh)"
+sh -c "$(curl -fsSL https://codeberg.org/notify-ctrl/Plasma-Overdose/raw/branch/master/install.sh)"
 ```
 
-To install the sounds theme run
-```sh
-mkdir -p ~/.local/share/aurorae/themes
-cp -r "aurorae/"* ~/.local/share/aurorae/themes/
-```
+### Manual Install
 
 To install the Aurorae theme run
 ```sh
-cp -r aurorae/* ~/.local/share/aurorae/themes
-```
-To install the cursor theme run
-```sh
-cp -r cursors ~/.local/share/icons/CursorsOverdose/
-```
-To install the color scheme run
-```sh
-cp colorschemes/* ~/.local/share/color-schemes/
-```
-To install sounds run
-```sh
-cp -r sounds/ ~/.local/share/sounds/Plasma-Overdose
-```
-To install the global theme run
-```sh
-cd plasma/look-and-feel/
-kpackagetool6 -t Plasma/LookAndFeel -i Plasma-Overdose
+mkdir -p ~/.local/share/aurorae/themes
+cp -r aurorae/Plasma-Overdose* ~/.local/share/aurorae/themes/
 ```
 
-After completing all the steps, you need to manually set the theme and it's components in:
+To install the cursor theme run
+```sh
+mkdir -p ~/.icons/CursorsOverdose
+cp -r cursors/* ~/.icons/CursorsOverdose/
+```
+
+To install the Color Scheme run
+```sh
+mkdir -p ~/.local/share/color-schemes
+cp plasma/desktoptheme/Plasma-Overdose/colors ~/.local/share/color-schemes/Plasma-Overdose.colors
+```
+
+To install the Desktop Theme run
+```sh
+mkdir -p ~/.local/share/plasma/desktoptheme
+cp -r plasma/desktoptheme/Plasma-Overdose ~/.local/share/plasma/desktoptheme/
+```
+
+To install the Global Theme run
+```sh
+kpackagetool6 -t Plasma/LookAndFeel -i plasma/look-and-feel/Plasma-Overdose
+```
+
+To install the sound theme run
+```sh
+mkdir -p ~/.local/share/sounds/PlasmaOverdose
+cp -r sounds/* ~/.local/share/sounds/PlasmaOverdose/
+```
+
+To install the wallpaper run
+```sh
+mkdir -p ~/.local/share/wallpapers/Plasma-Overdose
+cp -r wallpapers/Plasma-Overdose/* ~/.local/share/wallpapers/Plasma-Overdose/
+```
+
+After completing all the steps, you need to manually set the theme and its components in:
 
 > System Settings > Colors & Themes
 

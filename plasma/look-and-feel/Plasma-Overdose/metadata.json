@@ -16,7 +16,7 @@
 		"Name[zh_CN]": "Plasma 重度依赖",
 		"Name[zh_TW]": "Plasma 重度依賴",
     "Version": "0.1.0",
-		"Website": "https://github.com/Notify-ctrl/Plasma-Overdose"
+		"Website": "https://codeberg.org/Notify-ctrl/Plasma-Overdose"
 	},
 	"Keywords": "Desktop;Workspace;Appearance;Look and Feel;Global Theme",
   "X-KPackage-Dependencies": [
