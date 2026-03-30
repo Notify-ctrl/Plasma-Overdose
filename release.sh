@@ -26,7 +26,7 @@ rel wallpapers Wallpaper
 
 rel aurorae
 cd build/aurorae/${PROJ}
-tar zcf ${PROJ}-Aurorae-${VER}.tar.gz ${PROJ}
+tar zcfh ${PROJ}-Aurorae-${VER}.tar.gz ${PROJ}
 tar zcf ${PROJ}-Aurorae-x1.5-${VER}.tar.gz ${PROJ}_x1.5
 cd - > /dev/null
 
