@@ -7,24 +7,32 @@ BUILD=build
 
 rel() {
 	DIR=${BUILD}/$1
+  SUBNAME=$2
 	mkdir $DIR
 	cp -r $(pwd)/$1 ${DIR}/${PROJ}
 	cd $DIR
-	tar zcf ${PROJ}-${VER}.tar.gz ${PROJ}
+  if [ "0" != "0${SUBNAME}" ]; then
+    tar zcf ${PROJ}-${SUBNAME}-${VER}.tar.gz ${PROJ}
+  fi
 	cd - >/dev/null
 }
 
 mkdir build
 
-rel cursors
-rel sounds
+rel cursors Cursors
+rel sounds Sounds
+
+rel wallpapers Wallpaper
 
 rel aurorae
-rel wallpapers
+cd build/aurorae/${PROJ}
+tar zcf ${PROJ}-Aurorae-${VER}.tar.gz ${PROJ}
+tar zcf ${PROJ}-Aurorae-x1.5-${VER}.tar.gz ${PROJ}_x1.5
+cd - > /dev/null
 
 rel plasma
 cd build/plasma/${PROJ}/look-and-feel
-tar zcf ${PROJ}-${VER}.tar.gz ${PROJ}
+tar zcf ${PROJ}-GlobalTheme-${VER}.tar.gz ${PROJ}
 cd ../desktoptheme
-tar zcf ${PROJ}-${VER}.tar.gz ${PROJ}
+tar zcf ${PROJ}-DesktopTheme-${VER}.tar.gz ${PROJ}
 cd - >/dev/null
