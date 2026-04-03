@@ -28,7 +28,7 @@ Should available across DEs:
 
 - Renew the code
 - A Kvantum theme, for adjusting Widget Style.
-- (Maybe) An icon theme.
+- An icon theme. We started this work in separate repo: [Plasma-Overdose-Icons](https://codeberg.org/notify-ctrl/Plasma-Overdose-Icons)
 - (Maybe) Lock screen theme.
 
 ## Font
