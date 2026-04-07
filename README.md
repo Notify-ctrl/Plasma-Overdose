@@ -17,6 +17,7 @@ Plasma-specific:
 * `desktoptheme/`: Plasma Style
   * [X] Color Scheme
 * `aurorae/`: Window Decorations
+* `kwin/`: Window Decorations (KWin, this is better)
 * `wallpapers/`: Wallpaper
 
 Should available across DEs:
@@ -60,6 +61,12 @@ To install the Aurorae theme run
 ```sh
 mkdir -p ~/.local/share/aurorae/themes
 cp -r aurorae/Plasma-Overdose* ~/.local/share/aurorae/themes/
+```
+
+To install the KWin window decoration run
+```sh
+mkdir -p ~/.local/share/kwin/decorations
+cp -r kwin/Plasma-Overdose-KWinDeco ~/.local/share/kwin/decorations
 ```
 
 To install the cursor theme run

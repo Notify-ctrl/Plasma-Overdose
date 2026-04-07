@@ -1,0 +1,12 @@
+{
+  "KPackageStructure": "KWin/Decoration",
+  "KPlugin": {
+    "Authors": [
+    ],
+    "Description": "Bless..",
+    "Id": "Plasma-Overdose-KWinDeco",
+    "License": "GPL",
+    "Name": "Plasma Overdose (KWin)"
+  },
+  "X-KWin-Config-TranslationDomain": "aurorae"
+}
