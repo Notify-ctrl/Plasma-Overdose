@@ -21,7 +21,11 @@ mkdir build
 
 rel cursors Cursors
 rel sounds Sounds
-rel kwin KWin-Decorations
+rel kwin
+cd build/kwin/${PROJ}
+tar zcfh ${PROJ}-KWin-Decorations-${VER}.tar.gz ${PROJ}-KWinDeco
+mv *.tar.gz ..
+cd - > /dev/null
 
 rel wallpapers Wallpaper
 
