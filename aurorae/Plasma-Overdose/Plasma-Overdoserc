@@ -13,16 +13,16 @@ Shadow=false
 Animation=1
 
 [Layout]
-BorderLeft=8
-BorderRight=8
-BorderBottom=8
+BorderLeft=5
+BorderRight=5
+BorderBottom=5
 TitleEdgeTop=5
 TitleEdgeBottom=6
-TitleEdgeLeft=8
-TitleEdgeRight=8
+TitleEdgeLeft=7
+TitleEdgeRight=7
 TitleBorderLeft=5
 TitleBorderRight=30
-TitleHeight=16
+TitleHeight=18
 ButtonWidth=16
 ButtonHeight=16
 ButtonSpacing=2
