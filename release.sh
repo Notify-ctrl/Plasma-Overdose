@@ -21,6 +21,7 @@ mkdir build
 
 rel cursors Cursors
 rel sounds Sounds
+rel kwin KWin-Decorations
 
 rel wallpapers Wallpaper
 
