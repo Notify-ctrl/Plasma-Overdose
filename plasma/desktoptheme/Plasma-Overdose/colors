@@ -103,10 +103,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=Plasma-Overdose
-Name=Plasma Overdose
-Name[zh_CN]=Plasma 重度依赖
-Name[zh_TW]=Plasma 重度依賴
+ColorScheme=PlasmaOverdose
+Name=Plasma-Overdose
 shadeSortColumn=true
 
 [KDE]

@@ -1,5 +1,5 @@
-[kdeglobals][Icons]
-Theme=Breeze
+[kdeglobals][General]
+ColorScheme=PlasmaOverdose
 
 [plasmarc][Theme]
 name=Plasma-Overdose
@@ -11,14 +11,14 @@ theme=__aurorae__svg__Plasma-Overdose
 [kcminputrc][Mouse]
 cursorTheme=Plasma-Overdose
 
-[kdeglobals][General]
-ColorScheme=Plasma-Overdose
+[Wallpaper]
+Image=Plasma-Overdose
+
+[kdeglobals][Icons]
+Theme=Breeze
 
 [kdeglobals][KDE]
 widgetStyle=breeze
 
 [KSplash]
 Theme=Plasma-Overdose
-
-[Wallpaper]
-Image=Plasma-Overdose
