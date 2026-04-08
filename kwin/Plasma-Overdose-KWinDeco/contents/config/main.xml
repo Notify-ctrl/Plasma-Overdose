@@ -9,5 +9,20 @@
     <entry name="pixelWidth" type="Int">
       <default>15</default>
     </entry>
+    <entry name="colorPurple" type="Color">
+      <default>#4D23EF</default>
+    </entry>
+    <entry name="colorCyan" type="Color">
+      <default>#90F4E4</default>
+    </entry>
+    <entry name="colorPink" type="Color">
+      <default>#F0D1F1</default>
+    </entry>
+    <entry name="colorMagenta" type="Color">
+      <default>#EAA0E8</default>
+    </entry>
+    <entry name="colorGray" type="Color">
+      <default>#E3E3E3</default>
+    </entry>
   </group>
 </kcfg>

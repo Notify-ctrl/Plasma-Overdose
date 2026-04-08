@@ -7,26 +7,23 @@
     <x>0</x>
     <y>0</y>
     <width>541</width>
-    <height>176</height>
+    <height>273</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Config Dialog</string>
   </property>
-  <layout class="QVBoxLayout">
-   <property name="margin" stdset="0">
-    <number>0</number>
-   </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="0" column="0">
       <widget class="QLabel" name="label">
        <property name="text">
         <string>Pixel Width</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="0" column="1">
       <widget class="QSlider" name="kcfg_pixelWidth">
        <property name="minimum">
         <number>5</number>
@@ -48,10 +45,107 @@
        </property>
       </widget>
      </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Text Color</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Border Color</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="KColorButton" name="kcfg_colorCyan">
+       <property name="defaultColor">
+        <color>
+         <red>144</red>
+         <green>244</green>
+         <blue>228</blue>
+        </color>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Title Bar Color</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="KColorButton" name="kcfg_colorPink">
+       <property name="defaultColor">
+        <color>
+         <red>240</red>
+         <green>209</green>
+         <blue>241</blue>
+        </color>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string> Bottom Left Rectangle Color</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="KColorButton" name="kcfg_colorMagenta">
+       <property name="defaultColor">
+        <color>
+         <red>234</red>
+         <green>160</green>
+         <blue>232</blue>
+        </color>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Inactive Color</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="KColorButton" name="kcfg_colorGray">
+       <property name="defaultColor">
+        <color>
+         <red>227</red>
+         <green>227</green>
+         <blue>227</blue>
+        </color>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="KColorButton" name="kcfg_colorPurple">
+       <property name="defaultColor">
+        <color>
+         <red>77</red>
+         <green>35</green>
+         <blue>207</blue>
+        </color>
+       </property>
+      </widget>
+     </item>
     </layout>
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KColorButton</class>
+   <extends>QPushButton</extends>
+   <header>kcolorbutton.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

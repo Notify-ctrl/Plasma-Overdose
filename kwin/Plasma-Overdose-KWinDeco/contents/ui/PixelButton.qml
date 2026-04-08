@@ -11,6 +11,7 @@ DecorationButton {
   id: root
 
   property real size
+  property color mainColor: "#4D23CF"
   width: size
   height: size
 
@@ -61,7 +62,7 @@ DecorationButton {
         } else if (root.hovered) {
           return "darkred";
         }
-        return "transparent";
+        return root.mainColor;
       }
       cached: true
     }

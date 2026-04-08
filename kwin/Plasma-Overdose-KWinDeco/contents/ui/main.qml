@@ -7,14 +7,12 @@ Decoration {
   id: root
 
   property real pixelWidth: 1.5
-  readonly property var colors: ({
-    purple: "#4D23CF",
-    cyan: "#90F4E4",
-    pink: "#F0D1F1",
-    magenta: "#EAA0E8",
-    white: "#FFF8FF",
-    gray: "#E3E3E3",
-  })
+  property color colorPurple: "#4D23CF"
+  property color colorCyan: "#90F4E4"
+  property color colorPink: "#F0D1F1"
+  property color colorMagenta: "#EAA0E8"
+  property color colorWhite: "#FFF8FF"
+  property color colorGray: "#E3E3E3"
   readonly property real buttonSize: pixelWidth * 10
 
   DecorationOptions {
@@ -31,16 +29,16 @@ Decoration {
     anchors.top: background.top
     anchors.leftMargin: root.padding.right
     anchors.topMargin: root.padding.bottom
-    color: root.colors.purple
+    color: root.colorPurple
     opacity: 0.3
     z: -1
   }
 
   Rectangle {
     id: background
-    color: decoration.client.active ? root.colors.cyan : root.colors.gray
+    color: decoration.client.active ? root.colorCyan : root.colorGray
     border.width: root.pixelWidth
-    border.color: root.colors.purple
+    border.color: root.colorPurple
     anchors.fill: parent
     anchors.leftMargin: root.padding.left
     anchors.rightMargin: root.padding.right
@@ -54,9 +52,9 @@ Decoration {
       anchors.leftMargin: root.pixelWidth * 3
       height: root.pixelWidth * 5.5
       width: root.pixelWidth * 18
-      color: decoration.client.active ? root.colors.magenta : root.colors.gray
+      color: decoration.client.active ? root.colorMagenta : root.colorGray
       border.width: root.pixelWidth
-      border.color: root.colors.purple
+      border.color: root.colorPurple
     }
 
     Row {
@@ -72,7 +70,7 @@ Decoration {
           width: root.pixelWidth * 3.5
           color: "transparent"
           border.width: root.pixelWidth
-          border.color: root.colors.purple
+          border.color: root.colorPurple
         }
       }
     }
@@ -80,9 +78,9 @@ Decoration {
 
   Rectangle {
     id: titleRow
-    color: decoration.client.active ? root.colors.pink : root.colors.gray
+    color: decoration.client.active ? root.colorPink : root.colorGray
     border.width: root.pixelWidth
-    border.color: root.colors.purple
+    border.color: root.colorPurple
 
     height: root.pixelWidth * 15
 
@@ -128,7 +126,7 @@ Decoration {
         rightMargin: root.pixelWidth * 3
         verticalCenter: parent.verticalCenter
       }
-      color: root.colors.purple
+      color: root.colorPurple
       text: decoration.client.caption
       font: options.titleFont
       elide: Text.ElideMiddle
@@ -165,9 +163,9 @@ Decoration {
 
   Rectangle {
     id: contentBackground
-    color: root.colors.white
+    color: root.colorWhite
     border.width: root.pixelWidth
-    border.color: root.colors.purple
+    border.color: root.colorPurple
     anchors {
       fill: background
       leftMargin: root.pixelWidth * 3
@@ -183,6 +181,7 @@ Decoration {
       objectName: "maximizeButton"
       buttonType: DecorationOptions.DecorationButtonMaximizeRestore
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
   Component {
@@ -190,6 +189,7 @@ Decoration {
     PixelButton {
       buttonType: DecorationOptions.DecorationButtonKeepBelow
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
   Component {
@@ -197,6 +197,7 @@ Decoration {
     PixelButton {
       buttonType: DecorationOptions.DecorationButtonKeepAbove
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
   Component {
@@ -204,6 +205,7 @@ Decoration {
     PixelButton {
       buttonType: DecorationOptions.DecorationButtonQuickHelp
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
   Component {
@@ -211,6 +213,7 @@ Decoration {
     PixelButton {
       buttonType: DecorationOptions.DecorationButtonMinimize
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
   Component {
@@ -218,6 +221,7 @@ Decoration {
     PixelButton {
       buttonType: DecorationOptions.DecorationButtonShade
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
   Component {
@@ -225,6 +229,7 @@ Decoration {
     PixelButton {
       buttonType: DecorationOptions.DecorationButtonOnAllDesktops
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
   Component {
@@ -232,6 +237,7 @@ Decoration {
     PixelButton {
       buttonType: DecorationOptions.DecorationButtonClose
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
   Component {
@@ -246,6 +252,7 @@ Decoration {
     PixelButton {
       buttonType: DecorationOptions.DecorationButtonApplicationMenu
       size: root.buttonSize
+      mainColor: root.colorPurple
     }
   }
 
@@ -268,6 +275,7 @@ Decoration {
     target: decoration
     function onConfigChanged() {
       root.setupBorders();
+      root.setupColors();
     }
   }
 
@@ -288,7 +296,16 @@ Decoration {
     updatePadding();
   }
 
+  function setupColors() {
+    root.colorPurple = decoration.readConfig("colorPurple", Qt.color("#4D23EF"));
+    root.colorCyan = decoration.readConfig("colorCyan", Qt.color("#90F4E4"));
+    root.colorPink = decoration.readConfig("colorPink", Qt.color("#F0D1F1"));
+    root.colorMagenta = decoration.readConfig("colorMagenta", Qt.color("#EAA0E8"));
+    root.colorGray = decoration.readConfig("colorGray", Qt.color("#E3E3E3"));
+  }
+
   Component.onCompleted: {
     setupBorders();
+    setupColors();
   }
 }
