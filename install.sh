@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -37,6 +39,16 @@ if ! command -v kpackagetool6 &> /dev/null; then
     exit 1
 fi
 
+if ! command -v wget &> /dev/null; then
+    echo -e "${RED}Error: wget is not installed. Please install wget first.${NC}"
+    exit 1
+fi
+
+if ! command -v unzip &> /dev/null; then
+    echo -e "${RED}Error: unzip is not installed. Please install unzip first.${NC}"
+    exit 1
+fi
+
 
 echo -e "${GREEN}All dependencies are installed. Proceeding with installation...${NC}"
 
@@ -63,6 +75,7 @@ mkdir -p ~/.local/share/plasma/desktoptheme
 cp -r "$SCRIPT_DIR/plasma/desktoptheme/Plasma-Overdose" ~/.local/share/plasma/desktoptheme/
 
 echo -e "${BLUE}Installing Global Theme...${NC}"
+rm -rf ~/.local/share/plasma/look-and-feel/Plasma-Overdose
 kpackagetool6 -t Plasma/LookAndFeel -i "$SCRIPT_DIR/plasma/look-and-feel/Plasma-Overdose"
 
 echo -e "${BLUE}Installing sound theme...${NC}"
@@ -71,11 +84,18 @@ cp -r "$SCRIPT_DIR/sounds/"* ~/.local/share/sounds/PlasmaOverdose/
 
 echo -e "${BLUE}Installing wallpaper...${NC}"
 mkdir -p ~/.local/share/wallpapers/Plasma-Overdose
-cp -r "$SCRIPT_DIR/wallpapers/Plasma-Overdose/"* ~/.local/share/wallpapers/Plasma-Overdose/
+cp -r "$SCRIPT_DIR/wallpapers/"* ~/.local/share/wallpapers/Plasma-Overdose/
 
-echo -e "${BLUE}Installing zpix font...${NC}"
+echo -e "${BLUE}Installing global font...${NC}"
 mkdir -p ~/.local/share/fonts
-wget -O ~/.local/share/fonts/zpix.ttf https://github.com/SolidZORO/zpix-pixel-font/releases/download/v3.1.11/zpix.ttf
+FONT_TMP_DIR="$(mktemp -d)"
+trap 'rm -rf "$FONT_TMP_DIR"' EXIT
+FONT_ARCHIVE_PATH="$FONT_TMP_DIR/fusion-pixel-font.zip"
+FONT_ARCHIVE_URL="https://github.com/TakWolf/fusion-pixel-font/releases/download/2026.02.27/fusion-pixel-font-10px-proportional-ttf-v2026.02.27.zip"
+FONT_FILE="fusion-pixel-10px-proportional-latin.ttf"
+
+wget -O "$FONT_ARCHIVE_PATH" "$FONT_ARCHIVE_URL"
+unzip -jo "$FONT_ARCHIVE_PATH" "$FONT_FILE" -d ~/.local/share/fonts/
 fc-cache -fv
 
 echo ""
